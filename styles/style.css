@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body {
+.body-home {
 
     margin: 0;
     padding:0;
@@ -117,5 +117,76 @@ body {
   }
 }
 
-/* 2. ESTILOS DEL LOGIN */
+/* 2. ESTILOS DE PLANS */
 
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+.body-plans {
+
+  margin: 0;
+  padding:0;
+}
+
+
+.nav-plans {
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.container-logo {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-logo img {
+  width: 12%;
+  margin-left: 5%;
+}
+
+.container-items {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.nav-plans-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-plans-items li {
+   margin-right: 5%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-plans-items li:hover {
+
+  color: rgb(172, 67, 119);
+  cursor: pointer;
+  font-weight: bolder;
+
+}
+
+.nav-plans-items li:active {
+
+  text-decoration: none;
+
+}
+
+.img-plans {
+  width: 100%;
+}
+
+.plan-container {
+  position: fixed;
+}
