@@ -1,0 +1,151 @@
+/* 2. ESTILOS DE PLANS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  html {
+  
+    scroll-behavior: smooth;
+  
+  }
+  
+  
+  .nav-plans {
+  
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    display: flex;
+  }
+  
+  .container-logo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .container-logo img {
+    width: 12%;
+    margin-left: 5%;
+  }
+  
+  .container-items {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  
+  .nav-plans-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-plans-items li {
+     margin-right: 5%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+  }
+  
+  a:link, a:visited, a:active {
+    text-decoration:none;
+  }
+  
+  .nav-plans-items li:hover {
+  
+    color: rgb(172, 67, 119);
+    cursor: pointer;
+    font-weight: bolder;
+  
+  }
+  
+  .img-plans {
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .plan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .cards {
+  
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+    z-index: 1;
+    width: 30%;
+    padding: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+  .cards h2 {
+    font-family: 'Roboto', sans-serif;
+    color: darkmagenta;
+  }
+
+  .cards p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+  }
+
+  .want-it {
+
+    margin-top: 5%;
+    color: rgb(14, 14, 194);
+
+  }
+
+  .iconos-footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    height: 15%;
+    padding: 2%;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    bottom: 0;
+  }
+
+.fab {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+    color: #c13584;
+}
+
+.fa-youtube:hover {
+    color: #ff0000;
+}
