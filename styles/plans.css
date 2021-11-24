@@ -14,6 +14,12 @@
 
   }
 
+  body {
+    background-image: url(/assets/plans.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+  }
+
 
   .nav-plans {
 
@@ -21,8 +27,8 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    position: relative;
-    z-index: 1;
+    /* position: relative;
+    z-index: 1; */
     display: flex;
   }
 
@@ -71,13 +77,13 @@
 
   }
 
-  .img-plans {
+  /* .img-plans {
     width: 100%;
     object-fit: cover;
     position: fixed;
     right: 0;
     bottom: 0;
-  }
+  } */
 
   .plan-container {
     display: flex;
@@ -89,10 +95,13 @@
 
   .cards {
 
-    background-color: white;
+    /* background-color: white; */
+    background-image: url(/assets/cards-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: black;
     border-radius: 5%;
-    z-index: 1;
+    /* z-index: 1; */
     width: 30%;
     padding: 3%;
     text-align: center;
@@ -121,17 +130,23 @@
     color: rgb(175, 29, 29);
   }
 
+  footer {
+    margin-bottom: 0;
+    position: relative;
+    
+  }
+
   .iconos-footer {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     width: 100%;
     height: 15%;
     padding: 2%;
-    position: fixed;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-end;
     bottom: 0;
+    left: 0;
   }
 
 .fab {
@@ -217,8 +232,8 @@
 .cards {
   width: 70%;
   margin-top: 5%;
-  background-color: black;
-  color: white;
+  /* background-color: black;
+  color: white; */
 }
 
 .iconos-footer {
