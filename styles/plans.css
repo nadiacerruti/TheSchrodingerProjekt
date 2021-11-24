@@ -148,6 +148,7 @@
     align-items: flex-end;
     bottom: 0;
     left: 0;
+    position:fixed;
   }
 
 .fab {
@@ -192,7 +193,7 @@
 
 } */
 
-@media only screen and (max-width: 860px){
+@media only screen and (max-width: 1180px){
 
 
 .nav-plans {
@@ -226,9 +227,9 @@
 
 }
 
-.img-plans {
+/* .img-plans {
   width: 0;
-}
+} */
 
 .cards {
   width: 70%;
