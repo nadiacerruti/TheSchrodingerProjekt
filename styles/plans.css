@@ -95,10 +95,11 @@
 
   .cards {
 
-    /* background-color: white; */
-    background-image: url(/assets/cards-img.jpg);
+    background-color: white;
+    opacity: 0.9;
+    /* background-image: url(/assets/cards-img.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     color: black;
     border-radius: 5%;
     /* z-index: 1; */
