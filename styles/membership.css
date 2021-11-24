@@ -1,0 +1,192 @@
+/* 2. ESTILOS DE PLANS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  html {
+
+    scroll-behavior: smooth;
+
+  }
+
+  body {
+    background-image: url(/assets/membership.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+  }
+
+
+  .nav-plans {
+
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* position: relative;
+    z-index: 1; */
+    display: flex;
+  }
+
+  .container-logo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .container-logo img {
+    width: 12%;
+    margin-left: 5%;
+  }
+
+  .container-items {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+
+  }
+
+  .nav-plans-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .nav-plans-items li {
+     margin-right: 5%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+  }
+
+  .nav-plans-items a:link, .nav-plans-items a:visited, .nav-plans-items a:active {
+    text-decoration:none;
+    color: white;
+  }
+
+  .nav-plans-items a:hover {
+
+    color: rgb(172, 67, 119);
+    cursor: pointer;
+    font-weight: bolder;
+
+  }
+
+  
+
+  .iconos-footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    height: 15%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    bottom: 0;
+    left: 0;
+    position:fixed;
+  }
+
+.fab {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+    color: #c13584;
+}
+
+.fa-youtube:hover {
+    color: #ff0000;
+}
+
+/* MEDIA QUERYS  */
+
+@media only screed and (min-width: 1100px) {
+
+.iconos-footer {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+
+}
+
+
+@media only screen and (max-width: 1180px){
+
+
+.nav-plans {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+}
+
+.container-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-logo img {
+  width: 25%;
+  margin-left: 5%;
+}
+
+.nav-plans-items {
+  list-style: none;
+  margin-left: 5%;
+  width: 100%;
+
+}
+
+.iconos-footer {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  margin-top: 5%;
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+
+  .container-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+  }
+  
+  .container-logo img {
+    width: 30%;
+    margin-left: 5%;
+  }
+  
+  .nav-plans-items {
+    list-style: none;
+    width: 100%;
+  
+  }
+
+}
