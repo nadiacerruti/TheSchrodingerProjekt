@@ -1,6 +1,7 @@
-/* 2. ESTILOS DE PLANS */
+/* 2. ESTILOS DE MERMERSHIP */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;400&display=swap');
 
 * {
     margin: 0%;
@@ -20,13 +21,13 @@
     background-repeat: no-repeat ;
   }
 
-
-  .nav-plans {
+  .nav-member {
 
     background: rgba(0, 0, 0, 0.8);
     width: 100%;
     padding: 0;
     margin: 0;
+    /* position: fixed; */
     /* position: relative;
     z-index: 1; */
     display: flex;
@@ -51,31 +52,68 @@
 
   }
 
-  .nav-plans-items {
+  .nav-member-items {
     list-style: none;
     display: flex;
     align-items: center;
 
   }
 
-  .nav-plans-items li {
+  .nav-member-items li {
      margin-right: 5%;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bolder;
   }
 
-  .nav-plans-items a:link, .nav-plans-items a:visited, .nav-plans-items a:active {
+  .nav-member-items a:link, .nav-member-items a:visited, .nav-member-items a:active {
     text-decoration:none;
     color: white;
   }
 
-  .nav-plans-items a:hover {
+  .nav-member-items a:hover {
 
     color: rgb(172, 67, 119);
     cursor: pointer;
     font-weight: bolder;
 
   }
+
+  .container-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+  }
+
+  .form {
+
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    border-radius: 5%;
+    width: 30%;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .img-form img {
+    width: 60%;
+    align-items: center;
+  }
+
+  .labels {
+    padding: 3%;
+    /* font-weight: bold; */
+    color: darkmagenta;
+    font-family: 'Bebas Neue', cursive;
+    /* font-size: 2em; */
+  }
+
+
 
   
 
@@ -134,7 +172,7 @@
 @media only screen and (max-width: 1180px){
 
 
-.nav-plans {
+.nav-member {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -152,7 +190,7 @@
   margin-left: 5%;
 }
 
-.nav-plans-items {
+.nav-member-items {
   list-style: none;
   margin-left: 5%;
   width: 100%;
@@ -183,7 +221,7 @@
     margin-left: 5%;
   }
   
-  .nav-plans-items {
+  .nav-member-items {
     list-style: none;
     width: 100%;
   
