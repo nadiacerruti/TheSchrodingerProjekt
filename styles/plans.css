@@ -253,7 +253,7 @@
 }
 }
 
-* @media only screed and (max-width: 900px) {
+@media only screed and (max-width: 900px) {
 
   .cards {
     width:40%;
